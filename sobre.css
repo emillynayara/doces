@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ul{
+    position: fixed;
+}
+
+nav{
+    background-color: aliceblue;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 25px;
+}
+
+nav li a:hover{
+    background-color: rgb(177, 179, 184);
+
+
+}
+
+.dropdown-menu{
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+
+}
+
+.dropdown-menu a{
+    display: block;
+    color: black;
+
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
